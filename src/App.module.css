@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Russo+One&display=swap');
+
+.app {
+    display: flex;
+    background: #09131c;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('./components/images/e6772c88e4987be466f5b0e67b68d372.webp') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.main {
+    flex: 1 0 auto;
+    padding: 2rem 1rem;
+    max-width: 100rem;
+    align-self: center;
+    background: linear-gradient(to left, #09131c00, #09131c85 25%, #09131c85 75%, #09131c00 100%);
+    text-shadow: 2px 2px #09131c;
+}
+
+.header h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Russo One", sans-serif;
+}
+
+.header p {
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    text-align: justify;
+    padding: 1rem;
+    border: 2px solid #bed3e4;
+    border-radius: .5rem;
+    background-color: #09131cbc;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1em;
+}
+
+.sheetLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content p {
+    color: white;
+    padding-left: .5rem;
+    font-size: 1.6rem;
+    line-height: 0;
+}
+
+.linkGreen, .linkRed, .linkBlue {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    flex-wrap: wrap;
+}
+  
+.iconGreen, .textGreen, .iconRed, .textRed, .iconBlue, .textBlue {
+color: white;
+transition: color 0.3s ease;
+}
+
+.linkGreen:hover .iconGreen, 
+.linkGreen:hover .textGreen {
+color: #33a853;
+}
+
+.linkRed:hover .iconRed, 
+.linkRed:hover .textRed {
+color: #ff0000;
+}
+
+.linkBlue:hover .iconBlue, 
+.linkBlue:hover .textBlue {
+color: #279fdb;
+}
+
+.arrowGreen {
+animation: moveArrow 1s infinite alternate ease-in-out;
+}
+
+@keyframes moveArrow {
+0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(-10px);
+}
+}
+
+.footer {
+    flex-shrink: 0;
+    border-top: 1px solid #bed3e400;
+}
+
+@media only screen and (max-width: 800px) {
+    .header p {
+        font-size: 1.4rem;
+    }
+    .iconGreen, .iconRed, .iconBlue {
+        width: 4rem;
+        height: 4rem;
+    }
+    .arrowGreen, .arrowRed, .arrowBlue {
+        width: 2.1rem;
+        height: 2.1rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .content p {
+        font-size: 1.2rem;
+    }
+    .iconGreen, .iconRed, .iconBlue {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    .arrowGreen, .arrowRed, .arrowBlue {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+}
