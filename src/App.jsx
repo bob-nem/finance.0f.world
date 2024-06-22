@@ -1,12 +1,17 @@
 import Footer from './components/footer/Footer'
+import BurgerMenu from './components/burgerMenu/BurgerMenu';
 import style from './App.module.css'
 import { SiGooglesheets } from "react-icons/si";
 import { FaYoutube, FaTelegram } from "react-icons/fa";
 import { TbArrowBigLeftLines } from "react-icons/tb";
+import { Route, Routes } from "react-router-dom";
+
+import Contacts from "./components/contacts/contacts";
 
 function App() {
   return (
-    <div className={style.app}>
+    <div className={style.app} id="outer-container">
+      <BurgerMenu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
       <main className={style.main}>
         <header className={style.header}>
           <h1>Reviewing of following from trade bots and famous economists predictions. Statistics data in form of table sheet.</h1>
@@ -17,6 +22,11 @@ function App() {
             Join us and stay updated with the latest trends and strategies in the world of finance!
           </p>
         </header>
+        <Routes>
+            <Route path="/contacts" element={<Contacts />} />
+            {/* <Route path="/about/mission" element={<Mission />} /> */}
+            {/* <Route path="/about/services" element={<About />} /> */}
+        </Routes>
         <div className={style.content}>
           <div>
             <a 
