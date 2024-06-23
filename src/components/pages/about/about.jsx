@@ -1,9 +1,9 @@
-export default function Contacts() {
+export default function About() {
     return (
         <div>
             <p style={{
                 color: 'white'
-            }}>Contacts</p>
+            }}>About</p>
         </div>
     )
 }

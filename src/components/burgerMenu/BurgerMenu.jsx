@@ -15,7 +15,10 @@ const BurgerMenu = (props) => {
             marginLeft: '2rem',
           }}>
             <div>
-              <NavLink to="/contacts" activeClassName="bm-item-active"><BiMap /> Contacts</NavLink>
+              <NavLink to="/" className={({ isActive }) => isActive ? "bm-item-active" : ""}><BiMap /> Home</NavLink>
+              <NavLink to="/about" className={({ isActive }) => isActive ? "bm-item-active" : ""}><BiMap /> About</NavLink>
+              <NavLink to="/articles" className={({ isActive }) => isActive ? "bm-item-active" : ""}><BiMap /> Articles</NavLink>
+              <NavLink to="/contacts" className={({ isActive }) => isActive ? "bm-item-active" : ""}><BiMap /> Contacts</NavLink>
             </div>
           </div>
         </Menu>
