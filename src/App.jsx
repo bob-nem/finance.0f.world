@@ -10,8 +10,8 @@ import Articles from './components/pages/articles/articles'
 
 export default function App() {
   return (
-    <div className={style.app} id="outer-container">
-      <BurgerMenu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
+    <div className={style.app} id="outer-container app">
+      <BurgerMenu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } className={style.burger} />
       <main className={style.main} id="page-wrap">
         <Routes>
           <Route path="/" exact element={<Main />} />
