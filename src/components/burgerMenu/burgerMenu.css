@@ -44,10 +44,7 @@
     background: #09141c;;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
-    overflow-y: auto;
-    top: 0 !important;
-    position: fixed !important;
-    bottom: 0;
+    top: 0;
   }
   
   /* Morph shape necessary with bubble or elastic */
@@ -71,11 +68,12 @@
     transition: color 0.2s;
     font-family: Audiowide;
     font-size: 2rem;
+    
   }
   
   .bm-item a {
     display: block;
-    height: 100%;
+    padding: .25em 0;
     color: white;
     text-decoration: none !important;
   }
@@ -95,8 +93,6 @@
   
   .bm-logo img {
     max-width: 8rem;
-    padding: 1rem 0;
-    margin-top: -5rem;
   }
   
   .bm-icon {

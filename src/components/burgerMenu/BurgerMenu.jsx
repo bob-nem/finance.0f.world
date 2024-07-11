@@ -1,8 +1,9 @@
 import { scaleDown as Menu } from 'react-burger-menu';
 import {NavLink} from "react-router-dom";
 import {BiMap} from 'react-icons/bi';
-import Logo from "../images/noun-hexahedron-1159998.svg";
 import './burgerMenu.css';
+
+import Logo from "../images/noun-hexahedron-279fdb.svg";
 
 const BurgerMenu = (props) => {
     return (
@@ -15,7 +16,7 @@ const BurgerMenu = (props) => {
             marginLeft: '2rem',
           }}>
             <div>
-              <NavLink to="/" className={({ isActive }) => isActive ? "bm-item-active" : ""}><BiMap /> Home</NavLink>
+              <NavLink to="/" className={({ isActive }) => isActive ? "bm-item-active" : ""}><BiMap /> Main</NavLink>
               <NavLink to="/about" className={({ isActive }) => isActive ? "bm-item-active" : ""}><BiMap /> About</NavLink>
               <NavLink to="/articles" className={({ isActive }) => isActive ? "bm-item-active" : ""}><BiMap /> Articles</NavLink>
               <NavLink to="/contacts" className={({ isActive }) => isActive ? "bm-item-active" : ""}><BiMap /> Contacts</NavLink>
