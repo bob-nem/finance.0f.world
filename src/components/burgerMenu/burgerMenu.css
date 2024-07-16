@@ -66,14 +66,13 @@
     text-align: left;
     text-decoration: none !important;
     transition: color 0.2s;
-    font-family: Audiowide;
+    font-family: "Russo One", sans-serif;
     font-size: 2rem;
-    
   }
   
   .bm-item a {
     display: block;
-    padding: .25em 0;
+    padding: .16em 0;
     color: white;
     text-decoration: none !important;
   }
@@ -91,8 +90,9 @@
     color: #bdd5e9 !important;
   }
   
-  .bm-logo img {
+  .bm-logo {
     max-width: 8rem;
+
   }
   
   .bm-icon {
