@@ -11,24 +11,24 @@ class Footer extends React.Component {
     return (
       <div className={style.FooterOverall}>
         <div className={style.FooterCopyright}>
-          <p>© Copyright 2024-{this.state.curYear} finsum.of-all.world | All Rights Reserved | Powered by <a href="https://reactjs.org/" rel="noopener">React-JSX</a> | Development by <a href="https://it.for-all.world" rel="noopener">IT_Department</a></p>
+          <p>© Copyright 2024-{this.state.curYear} finance.0f.world | All Rights Reserved | Powered by <a href="https://reactjs.org/" rel="noopener">React-JSX</a> | Development by <a href="https://it.for-all.world" rel="noopener">IT_Department</a></p>
         </div>
         <div className={style.FooterSocialIcons}>
           <p>
             we are in social:<span> </span>
-            <a href="https://t.me/finance_of_all_world" 
+            <a href="https://t.me/finance_0f_world" 
               target="_blank" 
               rel="noopener noreferrer"
             >
               <FaTelegram size="1rem" />
             </a>            
-            <a href="https://www.youtube.com/channel/UCnSEy_R1Qa9HMUZ9HvyO1yw" 
+            <a href="https://www.youtube.com/channel/UCHIf1br7EuHQ4NCsGdQewmA" 
               target="_blank" 
               rel="noopener noreferrer"
             >
               <FaYoutube size="1rem" />
             </a>
-            <a href="mailto:info@finance.of-all.world" 
+            <a href="mailto:info@finance.0f.world"
               target="_blank" 
               rel="noopener noreferrer"
             >

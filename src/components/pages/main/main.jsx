@@ -17,7 +17,7 @@ export default function Main() {
           </header><div className={style.content}>
             <div>
               <a
-                href="https://docs.google.com/spreadsheets/d/1zGv5tD232mEme-tYKZjAf8ekmDM9rlSwAMqBbxGSZ9c/"
+                href="https://docs.google.com/spreadsheets/d/1Ak3JNFpVWAY5eCDJCYkUnDEb9p1dpGhdxLZCMtCzlnI/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={style.linkGreen}
@@ -29,7 +29,7 @@ export default function Main() {
             </div>
             <div>
               <a
-                href="https://www.youtube.com/channel/UCnSEy_R1Qa9HMUZ9HvyO1yw"
+                href="https://www.youtube.com/channel/UCHIf1br7EuHQ4NCsGdQewmA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={style.linkRed}
@@ -41,7 +41,7 @@ export default function Main() {
             </div>
             <div>
               <a
-                href="https://t.me/finance_of_all_world"
+                href="https://t.me/finance_0f_world"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={style.linkBlue}

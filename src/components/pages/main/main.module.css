@@ -64,10 +64,6 @@ color: #ff0000;
 color: #279fdb;
 }
 
-.arrowGreen {
-animation: moveArrow 1s infinite alternate ease-in-out;
-}
-
 @keyframes moveArrow {
 0% {
     transform: translateX(0);
