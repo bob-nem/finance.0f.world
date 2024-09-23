@@ -10,8 +10,9 @@ import Articles from './components/pages/articles/articles'
 
 export default function App() {
   return (
-    <div className={style.app} id="outer-container">
-      {/*<BurgerMenu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } className={style.burger} />*/}
+    <div>
+      <BurgerMenu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } className={style.burger} />
+      <div id="outer-container" className={style.app}>
       <main className={style.main} id="page-wrap">
         <Routes>
           <Route path="/" exact element={<Main />} />
@@ -23,6 +24,8 @@ export default function App() {
       <footer className={style.footer}>
         <Footer />
       </footer>
+      </div>
+      
     </div>
   );
 }
